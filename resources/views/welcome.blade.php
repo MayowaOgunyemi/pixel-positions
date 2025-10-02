@@ -1,3 +1,3 @@
 <x-layout>
-    Hello World to you all
+    Hello World
 </x-layout>
