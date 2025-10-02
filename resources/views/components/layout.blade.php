@@ -15,7 +15,7 @@
                     </a>
                 </div>
 
-                <div>
+                <div class="space-x-6 font-bold">
                     <a href="#">Jobs</a>
                     <a href="#">Careers</a>
                     <a href="#">Salaries</a>
@@ -27,7 +27,7 @@
                 </div>
             </nav>
 
-            <main>
+            <main class="mt-10 max-w-[986px] mx-auto">
                 {{ $slot }} 
             </main>
             
