@@ -6,7 +6,7 @@
         <title>Pixel Positions</title>
         @vite(['resources/js/app.js'])
     </head>
-    <body class="bg-black text-white font-sans">
+    <body class="bg-black text-white font-hanken-grotesk">
         <div>
             <nav class="flex justify-between items-center py-4 border-b border-white/10">
                 <div>

@@ -3,7 +3,12 @@
         <section>
             <x-section-heading>Top Jobs</x-section-heading>
             
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-6">
+            <div 
+                class="grid grid-cols-1 
+                md:grid-cols-2 
+                lg:grid-cols-3 
+                gap-8 mt-6"
+            >
                 <x-job-card />
                 <x-job-card />
                 <x-job-card />
@@ -29,6 +34,12 @@
 
         <section>
             <x-section-heading>Recent Jobs</x-section-heading>
+
+            <div class="mt-6 space-y-6">
+                <x-job-card-wide />
+                <x-job-card-wide />
+                <x-job-card-wide />
+            </div>
         </section>
     </div>
 </x-layout>
