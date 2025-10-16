@@ -1,4 +1,4 @@
-<div class="p-4 bg-white/5 rounded-xl flex gap-x-6">
+<div class="p-4 bg-white/5 rounded-xl flex gap-x-6 border border-transparent hover:border-blue-800 group">
     <div>
         <x-employer-logo />
         {{-- <img src="http://placehold.co/90x90" alt="" class="rounded-xl"> --}}
